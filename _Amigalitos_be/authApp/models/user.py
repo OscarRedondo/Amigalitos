@@ -1,6 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import AbstractBaseUser, PermissionsMixin, BaseUserManager
 from django.contrib.auth.hashers import make_password
+from django.db.models.fields import CharField
 
 class UserManager(BaseUserManager):
     def create_user(self, username, password=None):
