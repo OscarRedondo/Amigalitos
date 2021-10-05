@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models.user import User
+from .models.usuarios import User
 from .models.account import Account
 
 # Register your models here.
