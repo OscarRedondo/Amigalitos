@@ -1,5 +1,5 @@
 from django.db import models
-from .usuarios import User
+from .user import User
 
 class Account(models.Model):
     id = models.AutoField(primary_key=True)
